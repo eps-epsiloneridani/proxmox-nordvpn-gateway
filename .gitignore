@@ -1,0 +1,7 @@
+# Generated WireGuard configs contain private keys — never commit them.
+nord.conf
+wg0.conf
+
+# Local junk
+*.log
+.DS_Store
