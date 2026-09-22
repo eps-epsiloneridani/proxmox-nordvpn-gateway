@@ -106,3 +106,7 @@ Prerequisites: Proxmox VE 8/9, a NordVPN subscription, root on the PVE host, a S
 
 - NordVPN does not publish official WireGuard config files. The build exchanges a manual-setup access token for your NordLynx private key via their public API — the same mechanism the official Linux client uses for `nordvpn login --token`. It's undocumented-but-stable and widely relied on by router/gateway tooling; the scripts fail loudly if it ever changes, and `/root/nord.conf` is the manual escape hatch.
 - Built and proven against NordVPN's live API and Proxmox VE 8/9 with the Debian 13 template. `AGENTS.md` records the environment quirks the scripts work around.
+
+## License
+
+MIT — see [LICENSE](LICENSE).
